@@ -3,7 +3,7 @@
 Start an awesome app with AngularJS on the front, Socket.io + Express + Node on the back. This
 project is an application skeleton for writing [AngularJS](http://angularjs.org/) apps that use
 web sockets to add real-time functionality. If you're not planning on using web sockets, you
-should consider the [Angular Express Seed]() instead.
+should consider the [Angular Express Seed](https://github.com/btford/angular-express-seed) instead.
 
 The seed contains angular libraries, test libraries and a bunch of scripts all preconfigured for
 instant web development gratification. Just clone the repo (or download the zip/tarball) and
