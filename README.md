@@ -1,23 +1,24 @@
-# Angular Express Seed
+# Angular Socket.io Seed
 
-Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
-application skeleton for a typical [AngularJS](http://angularjs.org/) web app for those who want
-to use Node to serve their app.
+Start an awesome app with AngularJS on the front, Socket.io + Express + Node on the back. This
+project is an application skeleton for writing [AngularJS](http://angularjs.org/) apps that use
+web sockets to add real-time functionality. If you're not planning on using web sockets, you
+should consider the [Angular Express Seed]() instead.
 
 The seed contains angular libraries, test libraries and a bunch of scripts all preconfigured for
 instant web development gratification. Just clone the repo (or download the zip/tarball) and
 you're ready to develop your application.
 
-The seed app shows how to wire together Angular client-side components with Express on the server.
-It also illustrates writing angular partials/views with the Jade templating library.
+The seed app shows how to wire together Angular client-side components with Socket.io and Express
+on the server. It also illustrates writing angular partials/views with the Jade templating library.
 
 _Note: Although Jade supports interpolation, you should be doing that mostly on the client. Mixing
 server and browser templating will convolute your app. Instead, use Jade as a syntactic sugar for
 HTML, and let AngularJS take care of interpolation on the browser side._
 
-## How to use angular-express-seed
+## How to use it
 
-Clone the angular-express-seed repository and start hacking!
+Clone the angular-socket-io-seed repository and start hacking!
 
 ### Running the app
 
@@ -55,7 +56,6 @@ Just fetch the changes and merge them into your project with git.
             angular-*.js          --> angular add-on modules
             version.txt           --> version number
     routes/
-      api.js            --> route for serving JSON
       index.js          --> route for serving HTML pages and partials
     views/
       index.jade        --> main page for app
@@ -64,11 +64,6 @@ Just fetch the changes and merge them into your project with git.
         partial1.jade
         partial2.jade
 
-
-
-## Example App
-
-A simple [blog](https://github.com/btford/angular-express-blog) based on this seed.
 
 
 ## Contact
