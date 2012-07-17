@@ -5,12 +5,12 @@
 
 var express = require('express'),
   routes = require('./routes'),
-  socketIO = require('socket.io');
+  socket = require('./routes/socket.js');
 
 var app = module.exports = express.createServer();
 
 // Hook Socket.io into Express
-var io = socketIO.listen(app);
+var io = require('socket.io').listen(app);
 
 // Configuration
 
@@ -44,17 +44,7 @@ app.get('*', routes.index);
 
 // Socket.io Communication
 
-io.sockets.on('connection', function (socket) {
-  socket.emit('send:name', {
-    name: 'Bob'
-  });
-
-  setInterval(function () {
-    socket.emit('send:time', {
-      time: (new Date()).toString()
-    });
-  }, 1000);
-});
+io.sockets.on('connection', socket);
 
 // Start server
 
