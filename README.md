@@ -34,6 +34,11 @@ Coming soon!
 
 Just fetch the changes and merge them into your project with git.
 
+## Example Application
+
+I created a [simple instant messaging application](https://github.com/btford/angular-socket-io-im)
+and wrote a [blog post](briantford.com/blog/angular-socket-io.html) walking through the app to
+illustrate using the seed.
 
 ## Directory Layout
     
