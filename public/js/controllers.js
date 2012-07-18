@@ -5,14 +5,12 @@
 function AppCtrl($scope, socket) {
   socket.on('send:name', function (data) {
     $scope.name = data.name;
-    $scope.$apply();
   });
 }
 
 function MyCtrl1($scope, socket) {
   socket.on('send:time', function (data) {
     $scope.time = data.time;
-    $scope.$apply();
   });
 }
 MyCtrl1.$inject = ['$scope', 'socket'];
