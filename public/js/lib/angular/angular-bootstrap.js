@@ -1,5 +1,5 @@
 /**
- * @license AngularJS v1.0.5
+ * @license AngularJS v1.0.7
  * (c) 2010-2012 Google, Inc. http://angularjs.org
  * License: MIT
  */
@@ -149,6 +149,14 @@ directive.tabbable = function() {
   };
 };
 
+directive.table = function() {
+  return {
+    restrict: 'E',
+    link: function(scope, element, attrs) {
+      element[0].className = 'table table-bordered table-striped code-table';
+    }
+  };
+};
 
 directive.tabPane = function() {
   return {
@@ -162,5 +170,6 @@ directive.tabPane = function() {
 
 
 angular.module('bootstrap', []).directive(directive);
+
 
 })(window, window.angular);
