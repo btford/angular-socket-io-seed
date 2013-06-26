@@ -15,8 +15,9 @@ block body
       | Angular Socket.io seed app: v
       span(app-version)
 
-  script(src='js/lib/angular/angular.js')
   script(src='/socket.io/socket.io.js')
+  script(src='bower_components/angular/angular.js')
+  script(src='bower_components/angular-socket-io/socket.js')
   script(src='js/app.js')
   script(src='js/services.js')
   script(src='js/controllers.js')

@@ -1,0 +1,17 @@
+{
+  "name": "angular-socket-io",
+  "version": "0.0.2",
+  "main": "socket.js",
+  "dependencies": {
+    "angular": "~1.0.5"
+  },
+  "gitHead": "95e01ea06d9921a916cf43d8080a0f4f4a2bcbb7",
+  "readme": "# angular-socket-io\nBower Component for using AngularJS with [Socket.IO](http://socket.io/), based on [this](http://briantford.com/blog/angular-socket-io.html).\n\n## Usage\n1. `bower install angular-socket-io`\n2. Made sure the Socket.IO client lib is loaded. It's often served at `/socket.io/socket.io.js`.\n3. Include the `socket.js` script provided by this component into your app.\n4. Add `btford.socket-io` as a module dependency to your app.\n\n## License\nMIT\n",
+  "readmeFilename": "README.md",
+  "_id": "angular-socket-io@0.0.2",
+  "description": "Bower Component for using AngularJS with [Socket.IO](http://socket.io/), based on [this](http://briantford.com/blog/angular-socket-io.html).",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/btford/angular-socket-io.git"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "application-name",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": "~1.0.7",
+    "angular-socket-io": "~0.0.2"
+  }
+}
